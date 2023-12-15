@@ -5,7 +5,7 @@ import Announcement from "../components/Announcement";
 
 
 import { mobile } from "../responsive";
-import Navbar from "../Components/navbar";
+import Navbar from '../Components/navbar'
 import Newsletter from "../Components/Newsletter";
 import Footer from "../Components/Footer";
 import Products from "../Components/Products";

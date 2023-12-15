@@ -5,8 +5,9 @@ import Slider from '../Components/Slider'
 import Categories from '../Components/Categories'
 import Products from '../Components/Products'
 import Newsletter from '../Components/Newsletter'
-import Navbar from '../Components/navbar'
+
 import Footer from '../Components/Footer'
+import Navbar from '../Components/navbar'
 
 
 const Home = () => {

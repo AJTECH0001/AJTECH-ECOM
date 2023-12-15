@@ -6,7 +6,7 @@ import Announcement from "../components/Announcement";
 import { mobile } from "../responsive";
 import Footer from "../Components/Footer";
 import Newsletter from "../Components/Newsletter";
-import Navbar from "../Components/navbar";
+import Navbar from '../Components/navbar'
 
 const Container = styled.div``;
 
