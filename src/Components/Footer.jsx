@@ -1,6 +1,5 @@
 import {
     Facebook,
-    Home,
     Instagram,
     MailOutline,
     Phone,
@@ -89,7 +88,7 @@ import {
     return (
       <Container>
         <Left>
-          <Logo>AJTECH.</Logo>
+          <Logo>LAMA.</Logo>
           <Desc>
             There are many variations of passages of Lorem Ipsum available, but
             the majority have suffered alteration in some form, by injected
@@ -143,4 +142,3 @@ import {
   };
   
   export default Footer;
-  
