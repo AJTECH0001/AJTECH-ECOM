@@ -7,7 +7,7 @@ import Products from '../Components/Products'
 import Newsletter from '../Components/Newsletter'
 
 import Footer from '../Components/Footer'
-import Navbar from '../Components/navbar'
+import Navbar from '../Components/Navbar'
 
 
 const Home = () => {
