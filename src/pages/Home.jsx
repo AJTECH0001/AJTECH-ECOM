@@ -1,5 +1,5 @@
-import React from 'react'
-import Navbar from '../Components/navbar'
+
+import Navbar from '../Components/navbar';
 import Announcement from '../Components/Announcements'
 import Slider from '../Components/Slider'
 import Categories from '../Components/Categories'
