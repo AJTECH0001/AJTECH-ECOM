@@ -10,7 +10,7 @@ const Container = styled.div`
 `;
 
 const Wrapper = styled.div`
-  padding: 10px 20px;
+  padding: 0.5px 20px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -78,7 +78,7 @@ const Navbar = () => {
           </SearchContainer>
         </Left>
         <Center>
-          <Logo>LAMA.</Logo>
+          <Logo>AJTECH.</Logo>
         </Center>
         <Right>
           <MenuItem>REGISTER</MenuItem>
