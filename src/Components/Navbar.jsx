@@ -1,6 +1,6 @@
 import { Badge } from "@material-ui/core";
 import { Search, ShoppingCartOutlined } from "@material-ui/icons";
-
+import React from "react";
 import styled from "styled-components";
 import { mobile } from "../responsive";
 
@@ -10,11 +10,10 @@ const Container = styled.div`
 `;
 
 const Wrapper = styled.div`
-  padding: 0.5px 20px;
+  padding: 10px 20px;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  
   ${mobile({ padding: "10px 0px" })}
 `;
 
@@ -79,7 +78,7 @@ const Navbar = () => {
           </SearchContainer>
         </Left>
         <Center>
-          <Logo>AJTECH.</Logo>
+          <Logo>LAMA.</Logo>
         </Center>
         <Right>
           <MenuItem>REGISTER</MenuItem>
