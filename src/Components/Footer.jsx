@@ -90,9 +90,7 @@ import {
         <Left>
           <Logo>AJTECH.</Logo>
           <Desc>
-            There are many variations of passages of Lorem Ipsum available, but
-            the majority have suffered alteration in some form, by injected
-            humour, or randomised words which don’t look even slightly believable.
+          AJTECH Solutions is a leading technology company that specializes in providing innovative solutions to businesses. With a team of highly skilled professionals, AJTECH Solutions offers a wide range of services including software development, web design, and IT consulting. 
           </Desc>
           <SocialContainer>
             <SocialIcon color="3B5999">
@@ -114,8 +112,8 @@ import {
           <List>
             <ListItem>Home</ListItem>
             <ListItem>Cart</ListItem>
-            <ListItem>Man Fashion</ListItem>
-            <ListItem>Woman Fashion</ListItem>
+            <ListItem>Gadgets</ListItem>
+            <ListItem>FAQ</ListItem>
             <ListItem>Accessories</ListItem>
             <ListItem>My Account</ListItem>
             <ListItem>Order Tracking</ListItem>
@@ -130,10 +128,10 @@ import {
             <Room style={{marginRight:"10px"}}/> 622 Dixie Path , South Tobinchester 98336
           </ContactItem>
           <ContactItem>
-            <Phone style={{marginRight:"10px"}}/> +1 234 56 78
+            <Phone style={{marginRight:"10px"}}/> +2349084468784
           </ContactItem>
           <ContactItem>
-            <MailOutline style={{marginRight:"10px"}} /> contact@lama.dev
+            <MailOutline style={{marginRight:"10px"}} /> contact@AJTECH.dev
           </ContactItem>
           <Payment src="https://i.ibb.co/Qfvn4z6/payment.png" />
         </Right>
