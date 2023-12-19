@@ -1,5 +1,6 @@
 import { Badge } from "@material-ui/core";
 import { Search, ShoppingCartOutlined } from "@material-ui/icons";
+import { Link } from "react-router-dom";
 import styled from "styled-components";
 
 const mobile = (styles) => `
@@ -49,11 +50,13 @@ const Input = styled.input`
 const Center = styled.div`
   flex: 1;
   text-align: center;
+  
 `;
 
 const Logo = styled.h1`
   font-weight: bold;
-  ${mobile({ fontSize: "24px" })}
+  ${mobile({ fontSize: "24px" })};
+  
 `;
 
 const Right = styled.div`
@@ -83,15 +86,17 @@ const Navbar = () => {
           </SearchContainer>
         </Left>
         <Center>
-          <Logo>AJTECH.</Logo>
+          <Logo> <Link style={{textDecoration: 'none'}} to="/">AJTECH.</Link></Logo>
         </Center>
         <Right>
-          <MenuItem>REGISTER</MenuItem>
-          <MenuItem>SIGN IN</MenuItem>
+          <MenuItem> <Link style={{textDecoration: 'none'}}  to="/Register">REGISTER</Link></MenuItem>
+          <MenuItem> <Link style={{textDecoration: 'none'}} to="/Login">SIGN IN</Link></MenuItem>
           <MenuItem>
-            <Badge badgeContent={4} color="primary">
+            <Link to="/Cart" >
+            <Badge badgeContent={2} color="primary">
               <ShoppingCartOutlined />
             </Badge>
+              </Link> 
           </MenuItem>
         </Right>
       </Wrapper>
